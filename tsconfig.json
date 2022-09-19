@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "src",                                  /* Specify the root folder within your source files. */
+   "moduleResolution":"node",
+   "esModuleInterop":true,
+   "skipLibCheck":true,
+    "resolveJsonModule": true,                        /* Enable importing .json files. */
+    "allowJs": true,                                  /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+    "checkJs": true,                                  /* Enable error reporting in type-checked JavaScript files. */
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    "removeComments": true,                           /* Disable emitting comments. */
+    "noEmit": false,                               
+    "forceConsistentCasingInFileNames":true
+  },
+  "include":["src/**/*"],
+  "exclude":["node_modules"]
+}
